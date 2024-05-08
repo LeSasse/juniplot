@@ -40,11 +40,10 @@ juniplot \
 	plots/single \
 	--cmap "coolwarm" \
 	--single-output
-	--format pdf
 ```
 
 The example plot may look as follows:
-[single_element](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/single/BOLD_parccortical-Schaefer100x17FSLMNI_marker-empiricalFC/0157_restingstate.pdf)
+![single_element](examples/0157_restingstate.png)
 
 ### Collected Elements
 
@@ -63,15 +62,14 @@ juniplot \
 	aomic_piop1/aomic_piop1.hdf5 \
 	plots/group \
 	--cmap "coolwarm" \
-	--format pdf \
 	--n-jobs 16
 ```
 
 An example of one of the individual subjects from this one can look as follows:
-[single_element_from_whole_run](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/group/BOLD_parccortical-Schaefer100x7FSLMNI_marker-empiricalFC/0216_restingstate.pdf)
+[single_element_from_whole_run](examples/0001_restingstate.png)
 
 An example of some group average data looks as follows:
-![group_average](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/group/BOLD_parccortical-Schaefer100x7FSLMNI_marker-empiricalFC/group_average.svg)
+![group_average](examples/group_average.png)
 
 If you want to avoid running all subjects and are only interested in the group average
 plot you can also use the `--average-only` flag. This will then only plot the group
@@ -84,6 +82,5 @@ juniplot \
 	aomic_piop1/aomic_piop1.hdf5 \
 	plots/group \
 	--cmap "coolwarm" \
-	--format pdf \
 	--average-only
 ```
