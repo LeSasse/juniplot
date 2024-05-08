@@ -44,7 +44,7 @@ juniplot \
 ```
 
 The example plot may look as follows:
-![single_element](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/single/BOLD_parccortical-Schaefer100x17FSLMNI_marker-empiricalFC/0157_restingstate.pdf)
+[single_element](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/single/BOLD_parccortical-Schaefer100x17FSLMNI_marker-empiricalFC/0157_restingstate.pdf)
 
 ### Collected Elements
 
@@ -68,10 +68,10 @@ juniplot \
 ```
 
 An example of one of the individual subjects from this one can look as follows:
-![single_element_from_whole_run](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/group/BOLD_parccortical-Schaefer100x7FSLMNI_marker-empiricalFC/0216_restingstate.pdf)
+[single_element_from_whole_run](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/group/BOLD_parccortical-Schaefer100x7FSLMNI_marker-empiricalFC/0216_restingstate.pdf)
 
 An example of some group average data looks as follows:
-![group_average](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/group/BOLD_parccortical-Schaefer100x7FSLMNI_marker-empiricalFC/group_average.pdf)
+![group_average](https://gin.g-node.org/LeSasse/juniplot-example/src/master/plots/group/BOLD_parccortical-Schaefer100x7FSLMNI_marker-empiricalFC/group_average.svg)
 
 If you want to avoid running all subjects and are only interested in the group average
 plot you can also use the `--average-only` flag. This will then only plot the group
