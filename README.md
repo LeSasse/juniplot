@@ -66,7 +66,7 @@ juniplot \
 ```
 
 An example of one of the individual subjects from this one can look as follows:
-[single_element_from_whole_run](examples/0001_restingstate.png)
+![single_element_from_whole_run](examples/0001_restingstate.png)
 
 An example of some group average data looks as follows:
 ![group_average](examples/group_average.png)
